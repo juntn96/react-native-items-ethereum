@@ -1,11 +1,11 @@
 {
-  "name": "react-native-items-ethereum",
+  "name": "react-native-ethereum",
   "version": "0.1.0",
   "private": true,
   "devDependencies": {
-    "react-native-scripts": "1.11.1",
-    "jest-expo": "25.0.0",
-    "react-test-renderer": "16.2.0"
+    "react-native-scripts": "1.8.1",
+    "jest-expo": "23.0.0",
+    "react-test-renderer": "16.0.0"
   },
   "main": "./node_modules/react-native-scripts/build/bin/crna-entry.js",
   "scripts": {
@@ -13,14 +13,20 @@
     "eject": "react-native-scripts eject",
     "android": "react-native-scripts android",
     "ios": "react-native-scripts ios",
-    "test": "node node_modules/jest/bin/jest.js"
+    "test": "node node_modules/jest/bin/jest.js --watch"
   },
   "jest": {
     "preset": "jest-expo"
   },
   "dependencies": {
-    "expo": "^25.0.0",
-    "react": "16.2.0",
-    "react-native": "0.52.0"
+    "expo": "^23.0.4",
+    "node-libs-browser": "^2.1.0",
+    "react": "16.0.0",
+    "react-native": "0.50.3",
+    "truffle": "^4.0.4",
+    "truffle-blockchain-utils": "0.0.3",
+    "truffle-contract": "^3.0.1",
+    "truffle-contract-schema": "^1.0.1",
+    "truffle-hdwallet-provider": "0.0.3"
   }
 }
