@@ -1,5 +1,5 @@
-var Possession = artifacts.require("Possession");
+var ItemCreator = artifacts.require("ItemCreator");
 
 module.exports = function(deployer) {
-  deployer.deploy(Possession);
+  deployer.deploy(ItemCreator);
 };

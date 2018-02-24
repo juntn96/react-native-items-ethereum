@@ -1,4 +1,5 @@
 import Web3 from 'web3'
+import Promise from 'bluebird'
 
 const getWeb3 = new Promise(function (resolve, reject) {
     // replace with your testnet
